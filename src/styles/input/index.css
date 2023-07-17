@@ -1,0 +1,26 @@
+#search-content-container {
+    position: relative;
+    margin: auto;
+    height: 3em;
+    width: 18em;
+    top: 50%;
+}
+
+.search-line {
+    position: relative;
+    background-color: #2F2C2D;
+    border-color: #2F2C2D;
+    height: 3.5em;
+}
+
+#search-content-input-icon {
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+#search-content-input {
+    width: 80%;
+    float: right;
+    padding-left: 0.3em;
+}
