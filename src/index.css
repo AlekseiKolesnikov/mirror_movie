@@ -1,25 +1,55 @@
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
 body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background-image: linear-gradient(to bottom,
-    #000000, #100006, #19000f, #1e0018, #200021, #24022c,
-    #260438, #270546, #300557, #3a0469, #43037c, #4d018f);
-    width: 100%;
-    height: 100%;
+    #000000, #090003, #100009, #130010, #140017, #1a0321,
+    #1b072d, #1b0b3a, #250d50, #300c66, #3d097c, #4c0093);
+}
+
+#root {
+    min-height: 100%;
+    overflow: hidden;
 }
 
 code {

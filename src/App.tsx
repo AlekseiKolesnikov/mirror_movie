@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import {SearchInput} from "./components/SearchInput";
+import {Header} from "./components/Header";
 
 function App() {
   return (
-    <div className="main-screen-container">
-      <SearchInput></SearchInput>
+    <div className="App">
+      <Header/>
     </div>
   );
 }
-
 export default App;
+
+
