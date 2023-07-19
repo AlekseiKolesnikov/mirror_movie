@@ -9,6 +9,7 @@ export function Header() {
             </div>
             <div className={"header_input_container"}>
                 <input className={"header_input"}/>
+                <div></div>
             </div>
         </header>
     );
